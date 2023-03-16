@@ -55,6 +55,16 @@
           <a href="https://www.youtube.com/freecodecamp">
             <i class="fab fa-youtube"></i>
           </a>
+          <style>
+          .social-icons {
+            display: grid;
+            font-size: 3rem;
+            grid-template-columns: repeat(5, 1fr);
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+            align-items: center;
+          }
+          </style>
         </div>
       </section>
       <section class="text">
@@ -264,14 +274,7 @@ hr {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.social-icons {
-  display: grid;
-  font-size: 3rem;
-  grid-template-columns: repeat(5, 1fr);
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  align-items: center;
-}
+
 
 .first-paragraph::first-letter {
   font-size: 6rem;
