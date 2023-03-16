@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magazine</title>
+    <style>
+    .social-icons {
+      display: grid;
+      font-size: 3rem;
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+      align-items: center;
+    }
+    </style>
     <link
       href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
       rel="stylesheet"
@@ -55,16 +65,6 @@
           <a href="https://www.youtube.com/freecodecamp">
             <i class="fab fa-youtube"></i>
           </a>
-          <style>
-          .social-icons {
-            display: grid;
-            font-size: 3rem;
-            grid-template-columns: repeat(5, 1fr);
-            grid-auto-flow: column;
-            grid-auto-columns: 1fr;
-            align-items: center;
-          }
-          </style>
         </div>
       </section>
       <section class="text">
